@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 
   $('#menu-toggle').on('click', function() {
-    $('.nav').addClass('showing');
-    $('.nav ul').addClass('showing');
+    $('.nav').toggleClass('showing');
+    $('.nav ul').toggleClass('showing');
     $('#menu-toggle').css("color", "blue");
   });
 
