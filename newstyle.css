@@ -1273,3 +1273,39 @@ input[type=submit]:hover {
     font-size: 2em;
   }
 }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  padding-bottom: 10px;
+
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+
+}
+@media only screen and (max-width:990px){
+  .mapouter{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+  .gmap_canvas{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+  iframe{
+    width:980px;
+  }
+}
