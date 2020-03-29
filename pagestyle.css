@@ -278,6 +278,7 @@ header #menu-toggle {
     top: 0;
     width: 100%;
   }
+
 }
 
 @media only screen and (max-width:1220px) {
@@ -285,25 +286,33 @@ header #menu-toggle {
     display: none;
   }
 }
+
+
 section {
   padding: 0px;
   margin-top: 0px;
   padding-top: 120px;
   background: #f6f6f6;
   font-family: 'Lora', serif;
-}
-
-.restofbody {
   display: flex;
   flex-direction:column;
   margin-bottom: 0px;
-
 }
-.pagebody{
+
+
+.pagebody {
+  font-family: Arial;
+  width: 100%;
+  background: #f1f1f1;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0px;
+  margin-top: 0px;
   display: flex;
   flex-direction: row;
-  gap:20px;
 }
+
+
 .pagenav{
   width:70%;
 }
@@ -450,9 +459,22 @@ section {
 
 
 @media only screen and (max-width:990px) {
-  
+
+
+  .restofbody{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pagebody{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    width: 100%;
+  }
+
   .pagenav ul{
-    margin-top:96px;
+    margin-top:50px;
     margin-left:0px;
     padding: 0px;
     margin-right: 0px;
@@ -471,6 +493,17 @@ section {
   .contentpage{
     margin-top:86px;
   }
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .showing {
+    max-height: 100em;
+  }
+
 
   .servicelist1 {
     background-color: #393e46;
@@ -507,14 +540,14 @@ section {
   }
 
   #l1 {
-    font-size: 1.8em;
+    font-size: 0.9em;
     padding-bottom: 10px;
     font-weight: bold;
   }
 
   #l2 {
     padding-top: 5px;
-    font-size:1.4em;
+    font-size:0.8em;
     font-weight: lighter;
   }
 
