@@ -4,7 +4,6 @@ body{
   padding: 0px;
 }
 
-
 header {
   background: white;
   height: 126px;
@@ -179,13 +178,16 @@ header #menu-toggle {
   header ul {
     width: 100%;
     background: white;
-    margin: 0px;
+    margin-top: -6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     max-height: 0px;
     overflow: hidden;
   }
 
   .showing {
-    max-height: 100em;
+    max-height: 200em;
   }
 
   .hidden {
@@ -286,6 +288,8 @@ header #menu-toggle {
     display: none;
   }
 }
+
+
 
 section {
   padding: 0px;
@@ -435,6 +439,7 @@ section {
   font-family: roboto;
   color: #393e46;
   font-weight: lighter;
+
 }
 
 .callsBody {
@@ -612,7 +617,6 @@ section {
   border-radius: 5px;
   box-shadow: 0 4px 2px -2px rgba(0.6,0.6,0.6,.6);
 
-
 }
 
 .ourTeam .post-slider .post-wrapper1 .post .post-info {
@@ -621,29 +625,37 @@ section {
   padding-bottom: 0px;
   margin: 0px;
   font-family: roboto;
-  height: 30px;
+  font-size: 1em;
+  height: 20%;
   color: inherit;
-  padding: 0px 5px;
+  padding: 0px 0px;
+
 
 }
 .ourTeam .post-slider .post-wrapper1 .post .post-info h1{
   margin:0px;
+  font-size: 1.2em;
+
 }
 
 .ourTeam .post-slider .post-wrapper1 .post .post-info h2 {
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.0em;
   margin:0;
-  padding-top: 10px;
+  padding-top: 2%;
+
 }
 
 .ourTeam .post-slider .post-wrapper1 .post .slider-image {
 
   padding-left: 15%;
   width: 70%;
-  height: 230px;
+  height: 75%;
+  margin: 0;
+  padding-bottom: 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
 
 }
 
@@ -1092,25 +1104,28 @@ input[type=submit]:hover {
     background: white;
     border-radius: 5px;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+
   }
 
   .ourTeam .post-slider .post-wrapper1 .post .post-info {
     text-align: center;
     font-family: roboto;
-    height: 130px;
+    height: 20%;
     color: inherit;
+
     font-size: 1.3em;
     padding: 0px 5px;
+
   }
 
   .ourTeam .post-slider .post-wrapper1 .post .post-info h2 {
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .ourTeam .post-slider .post-wrapper1 .post .slider-image {
     width: 80%;
-    height: 250px;
+    height: 75%;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 5%;

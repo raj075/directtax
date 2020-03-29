@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   $('.post-wrapper').slick({
     dots: false,
-    infinite: true,
+    infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -52,8 +52,8 @@ $(document).ready(function() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true
+          infinite: false,
+          dots: false
         }
       },
       {

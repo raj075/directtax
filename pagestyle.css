@@ -312,8 +312,6 @@ section {
   margin-left:0px;
   padding: 0px;
   margin-right: 0px;
-
-
 }
 .pagenav ul li{
   list-style: none;
@@ -452,9 +450,7 @@ section {
 
 
 @media only screen and (max-width:990px) {
-  .restofbody {
-  }
-
+  
   .pagenav ul{
     margin-top:96px;
     margin-left:0px;
