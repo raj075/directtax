@@ -1195,7 +1195,7 @@ input[type=submit]:hover {
 
   /* Style the submit button with a specific background color etc */
 #formbutton{
-  border:1px solid red;
+  
   height: 80px;
   font-size: 200%;
   margin-right: 10%;
