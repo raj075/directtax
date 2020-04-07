@@ -732,6 +732,7 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #4095c6;
+
 }
 
 /* Add a background color and some padding around the form */
@@ -1146,11 +1147,17 @@ input[type=submit]:hover {
     padding-right: 0%;
     font-family: helvetica;
   }
+  label{
+    margin-left: 10%;
+    font-family: helvetica;
+
+  }
 
   input[type=text], select, textarea {
-    width: 100%;
+    width: 80%;
     /* Full width */
-    padding: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
     /* Some padding */
     border: 1px solid #ccc;
     /* Gray border */
@@ -1167,9 +1174,10 @@ input[type=submit]:hover {
   }
 
   input[type=number], select, textarea {
-    width: 100%;
+    width: 80%;
     /* Full width */
-    padding: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
     /* Some padding */
     border: 1px solid #ccc;
     /* Gray border */
@@ -1187,7 +1195,8 @@ input[type=submit]:hover {
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    float: right;
+    position: relative;
+    right: 10%;
     height: 80px;
     padding: 0.3em 1.2em;
     box-sizing: border-box;
@@ -1197,12 +1206,14 @@ input[type=submit]:hover {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    transition: all 0.2s;
+    transition: all 0s;
     text-align: center;
     text-decoration: none;
     border-radius: 2em;
-    margin: 0 0.3em 0.3em 0;
     cursor:pointer;
+    border: 1px solid red;
+
+
   }
 
   /* When moving the mouse over the submit button, add a darker green color */
