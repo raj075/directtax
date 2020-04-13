@@ -60,7 +60,7 @@ header ul li {
   float: left;
   padding-right: 0px;
   position: relative;
-  font-family: 'Lato', sans-serif;
+  font-family: 'helvetica',sans-serif;
   vertical-align: bottom;
 
 }
@@ -135,7 +135,7 @@ header #menu-toggle {
   color: #FFFFFF;
   background-color: #4eb5f1;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'helvetica',sans-serif;
   font-weight: 300;
   transition: all 0.2s;
   text-align: center;
@@ -143,6 +143,10 @@ header #menu-toggle {
   border-radius: 2em;
   margin: 0 0.3em 0.3em 0;
   cursor:pointer;
+}
+
+#phoneicon{
+  color:#00CD00;
 }
 
 #submitenquiry button:hover {
@@ -270,7 +274,7 @@ header #menu-toggle {
     color: white;
     background-color: #4CAF50;
     font-weight: bold;
-    font-family: helvetica;
+    font-family: 'helvetica',sans-serif;
   }
 
   .sticky {
@@ -293,12 +297,12 @@ section {
   margin-top: 0px;
   padding-top: 120px;
   background: #f6f6f6;
-  font-family: 'Lora', serif;
+  font-family: 'helvetica',sans-serif;
 }
 
 
 .pagebody {
-  font-family: Arial;
+  font-family: 'helvetica',sans-serif;
   width: 100%;
   background: #f1f1f1;
   margin-left: 0%;
@@ -307,19 +311,26 @@ section {
   margin-top: 0px;
   display: flex;
   flex-direction: row;
+
 }
 
 
 .pagenav{
-
   width:70%;
-  margin:5%;
+  height:100%;
+  margin-top:5%;
+  margin-bottom:0px;
+  margin-left: 10%;
+  margin-right: ;
+  border:1px solid #dbdbdb;
+
 }
 .pagenav ul{
-  margin-top:46px;
+  margin-top: 0px;
   margin-left:0px;
   padding: 0px;
   margin-right: 0px;
+  margin-bottom:0;
 
 }
 .pagenav ul li{
@@ -330,7 +341,7 @@ section {
   margin-bottom: 2px;
   background-color: #d3d4d8;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'helvetica',sans-serif;
   box-shadow: 0 4px 2px -2px rgba(0,0,0,.6);
 
 }
@@ -345,7 +356,11 @@ section {
 }
 .contentpage{
   width:150%;
-  margin:5%
+  margin-top:5%;
+  margin-right:10%;
+  background-color: #eeeeee;
+  border:1px solid #dbdbdb;
+
 }
 .footerend{
   display:flex;
@@ -358,7 +373,7 @@ section {
 
 .pagetitle h2{
   text-align: center;
-  font-family: 'candal', 'serif';
+  font-family: 'helvetica',sans-serif;
   font-size: 150%;
   color:#444;
 
@@ -368,7 +383,7 @@ section {
 .pagecontent p{
   margin-left: 10%;
   margin-right: 10%;
-  font-family: roboto;
+  font-family: 'helvetica',sans-serif;
   line-height: 30px;
 }
 .pagecontent ul{
@@ -389,7 +404,7 @@ section {
 .pagecontent ul li{
   padding-bottom: 20px;
   line-height: 30px;
-  font-family: helvetica;
+  font-family: 'helvetica',sans-serif;
 }
 .pagecontent ul li ul{
   list-style:none;
@@ -404,22 +419,38 @@ section {
 #footer1{
   background-color: #4eb5f1;
 }
-#footer1 h2 {
-  text-align: center;
-  font-family: 'candal', 'serif';
-  font-size: 150%;
-  color: #444;
+
+
+#footer1 ul{
+  padding-top:10px;
+  list-style: none;
+  padding-left: 0px;
 }
 
-#footer1 .content {
+#footer1 ul li{
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
   text-align: center;
-  font-family: roboto;
-  padding-bottom: 20px;
+  font-family: 'helvetica',sans-serif;
+  word-spacing:2px;
+  font-size: 1.1em;
+
 
 }
-#footer1 h4{
-  margin: 5px;
+#footer1 ul li h2{
+  font-size: 1.3em;
+  margin:10px;
 }
+#footer1 ul li a{
+  text-decoration: none;
+  color:black;
+
+}
+
 
 .footerend {
   display: flex;
@@ -437,7 +468,7 @@ section {
 .footerend div ul li a{
   list-style: none;
   text-decoration: none;
-  font-family: helvetica;
+  font-family: 'helvetica',sans-serif;
   color: #f4f4f4;
 }
 
@@ -456,6 +487,9 @@ section {
 #l2 a {
   color: white;
 }
+#phoneicon{
+  color:#00CD00;
+}
 
 
 
@@ -470,9 +504,11 @@ section {
   .pagenav{
     width:40%;
     position: relative;
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 0px;
     margin-top:80px;
-    border:1px solid red;
+
   }
 
   .pagenav ul{
@@ -486,6 +522,7 @@ section {
     padding-bottom: 25px;
     padding-top: 25px;
     text-align: center;
+    font-family: 'helvetica',sans-serif;
 
   }
   .pagenav ul li a{
@@ -493,15 +530,28 @@ section {
   }
 
   .contentpage{
-    width:45%;
-    border: 1px solid green;
+    width:60%;
+    margin-left: 0;
+    margin-right: 0;
     position: relative;
     margin-top: 80px;
 
   }
 
   .contentpage{
-    margin-top:86px;
+    margin-top:80px;
+  }
+
+  .pagecontent ul li{
+    font-size: 1.6em;
+    font-family: 'helvetica',sans-serif;
+  }
+
+  .pagecontent ul li ul li{
+    font-size: 1em;
+  }
+  .pagecontent p {
+    font-size:1.6em;
   }
 
 
@@ -524,7 +574,7 @@ section {
     list-style-type: none;
     margin-top: 20px;
     color: #f4f4f4;
-    font-family: helvetica;
+    font-family: 'helvetica',sans-serif;
     text-decoration: none;
   }
 
@@ -536,7 +586,8 @@ section {
     list-style-type: none;
     margin-top: 20px;
     color: #f4f4f4;
-    font-family: helvetica;
+    font-size: 110%
+    font-family: 'helvetica',sans-serif;
   }
 
   .resourceslist1 {
@@ -565,8 +616,32 @@ section {
     color: white;
   }
 
-  #footer1 .content {
-    font-size: 1.2em;
+  #footer1{
+    background-color: #4eb5f1;
+  }
+
+  #footer1 ul{
+    padding-top:10px;
+    list-style: none;
+
+  }
+
+  #footer1 ul li{
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'helvetica',sans-serif;
+    word-spacing:2px;
+    font-size: 120%;
+  }
+  #footer1 ul li h2{
+    font-size: 115%;
+    margin:10px;
+  }
+  #footer1 ul li a{
+    text-decoration: none;
+    color:black;
+
   }
 
   .contentpage{
