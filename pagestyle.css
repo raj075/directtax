@@ -294,9 +294,6 @@ section {
   padding-top: 120px;
   background: #f6f6f6;
   font-family: 'Lora', serif;
-  display: flex;
-  flex-direction:column;
-  margin-bottom: 0px;
 }
 
 
@@ -314,6 +311,7 @@ section {
 
 
 .pagenav{
+
   width:70%;
   margin:5%;
 }
@@ -463,31 +461,18 @@ section {
 
 @media only screen and (max-width:990px) {
 
-  section {
-    padding: 0px;
-    margin-top: 0px;
-    padding-top: 90px;
-    background: #f6f6f6;
-    font-family: 'Lora', serif;
-    display: flex;
-    flex-direction:column;
-    margin-bottom: 0px;
-  }
-
-
-  .restofbody{
-    display: flex;
-    flex-direction: column;
-  }
-
   .pagebody{
-    display: flex;
+    display: ;
     flex-direction: row;
     margin:0;
     width: 100%;
   }
   .pagenav{
     width:40%;
+    position: relative;
+    padding-top: 0px;
+    margin-top:500px;
+    border:1px solid red;
   }
 
   .pagenav ul{
@@ -508,8 +493,9 @@ section {
   }
 
   .contentpage{
-    width:50%;
-    border:1px solid green;
+    width:45%;
+    border: 1px solid green;
+    position: relative;
     margin:5%
   }
 
