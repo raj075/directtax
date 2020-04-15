@@ -564,30 +564,17 @@ section {
     max-height: 100em;
   }
 
-
-  .servicelist1 {
+  .footerend{
     background-color: #393e46;
-    font-size: 100%;
   }
 
-  .serviceslist {
+  .footerend ul li{
+    font-size:1.3em;
     list-style-type: none;
     margin-top: 20px;
     color: #f4f4f4;
     font-family: 'helvetica',sans-serif;
     text-decoration: none;
-  }
-
-  .whowehelplist1 {
-    background-color: #393e46;
-  }
-
-  .whowehelplist {
-    list-style-type: none;
-    margin-top: 20px;
-    color: #f4f4f4;
-    font-size: 110%
-    font-family: 'helvetica',sans-serif;
   }
 
   .resourceslist1 {

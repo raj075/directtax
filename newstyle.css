@@ -841,6 +841,7 @@ input[type=submit]:hover {
 
   #aboutus .paragraph p {
     padding: 10px 20px;
+    font-size: 120%;
   }
 
   .fieldofexperience {
@@ -859,6 +860,7 @@ input[type=submit]:hover {
   .fieldofexperience .paragraph {
     background-color: inherit;
     padding: 20px;
+    font-size: 120%;
   }
 
   /*********** post slider**************/
@@ -1238,28 +1240,22 @@ input[type=submit]:hover {
     color:
   }
 
-  .servicelist1 {
+  .footerend{
     background-color: #393e46;
-    font-size: 100%;
   }
 
-  .serviceslist {
+
+  .footerend ul li{
     list-style-type: none;
     margin-top: 20px;
     color: #f4f4f4;
     font-family: 'helvetica',sans-serif;
     text-decoration: none;
+
   }
 
-  .whowehelplist1 {
-    background-color: #393e46;
-  }
-
-  .whowehelplist {
-    list-style-type: none;
-    margin-top: 20px;
-    color: #f4f4f4;
-    font-family: 'helvetica',sans-serif;
+  .footerend ul li a{
+    font-size: 24px;
   }
 
   .resourceslist1 {
@@ -1272,22 +1268,14 @@ input[type=submit]:hover {
     background-color: #393e46;
   }
 
-  #l1 {
-    font-size: 1.8em;
-    padding-bottom: 10px;
-    font-weight: bold;
+  #l1{
+    font-weight: bolder;
   }
 
-  #l2 {
-    padding-top: 5px;
-    font-size:1.4em;
-    font-weight: lighter;
-  }
 
   #l2 a {
     color: white;
   }
-
 
   label {
     font-size: 2em;
